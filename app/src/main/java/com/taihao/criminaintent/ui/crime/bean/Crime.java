@@ -64,6 +64,10 @@ public class Crime {
         this.mSuspect = mSuspect;
     }
 
+    public String getPhotoFilename() {
+        return "IMG_" + getmId().toString() + ".jpg";
+    }
+
     @Override
     public String toString() {
         return "Crime{" +
